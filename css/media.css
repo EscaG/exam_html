@@ -73,6 +73,7 @@
 	}
 }
 @media (min-width: 650px) and (max-width: 799.98px) {
+	
 	ul li.logo{
 		padding: 50px 30px 30px 50px;
 	}
@@ -106,6 +107,9 @@
 	}
 }
 @media (min-width: 800px) and (max-width: 999.98px) {
+	.wrapper{
+		display: none;
+	}
 	ul.list{
 		visibility: visible;
 	}
@@ -139,6 +143,9 @@
 	}
 }
 @media screen and (min-width: 1000px) {
+	.wrapper{
+		display: none;
+	}
 	.hamburger .bar{
 		visibility: hidden;
 	}

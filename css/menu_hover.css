@@ -6,10 +6,14 @@
   /*margin: 0 auto;*/
   /*margin-top: 10%;*/
   /*border:1px solid red;*/
-  position: fixed;
+  position: absolute;
   z-index: 5;
   top: 15px;
   left: 20px;
+}
+.wrapper:hover, nav:hover{
+  position: fixed;
+  z-index: 5;
 }
 
 .wrapper:hover .middle, nav:hover .middle {
@@ -21,14 +25,8 @@
   background-color:black;
   opacity:0.3;
 }
-.wrapper:hover ~ ul{
-    /*visibility: visible;*/
-}
-nav{
-    width: 200px;
-}
 nav:hover ul{
-    visibility: visible;
+  visibility: visible;
 }
 
 .wrapper:hover .top, nav:hover .top {
@@ -44,7 +42,6 @@ nav:hover ul{
   border-radius:10px;
   background-color:white;
 }
-
 .bar {
   width:30px;
   height:5px;

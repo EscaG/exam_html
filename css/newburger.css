@@ -58,7 +58,6 @@
 }
 .checkbox3:checked + label > .hamburger > .bar{
     background-color: #1a1717;
-    /*position: fixed;*/
 }
 .checkbox3:checked + label > .hamburger3{
     position: fixed;
@@ -91,64 +90,4 @@
 #checkbox3:checked ~ .list{
     visibility: visible;
     transition: 1.3s;
-}
-/***********************************/
-/***************MENU****************/
-/***********************************/
-.logo{
-    font-size: 26px;
-    font-weight: bold;
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0 0 15px 0;
-    padding: 30px;
-    color: #1a1717;
-    border-bottom: 1px solid gray;
-}
-.list{
-    visibility: hidden;
-}
-nav ul{
-    position: fixed;
-    /*flex: 1;*/
-    width: 200px;
-    height: 100vh;
-    background-color: whitesmoke;
-    box-shadow: 2px 0 3px gray ;
-    z-index: 2;
-    top: 0;
-}
-nav ul li{
-    width: 100%;
-    padding: 0 20px 0 10px ;
-}
-nav ul li a{
-    font-size: 16px;
-    display: inline-block;
-    width: 100%;
-    padding: 10px;
-    color: gray;
-}
-nav ul li a img{
-    height: 16px;
-    /*width: 16px;*/
-    margin: 0 10px 0 0 ;
-}
-.notify{
-    width: 16px;
-    height: auto;
-}
-nav ul li a:hover{
-    color: #fff;
-    background-color: rgb(139, 0, 0);
-}
-nav ul li a:hover .nav_image_gray{
-    display: none;
-}
-nav ul li a:hover .nav_image_white{
-    display: inline-block;
-    color: #fff;
-}
-.nav_image_white{
-    display: none;
 }
