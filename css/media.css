@@ -5,9 +5,6 @@
 	h1{
 		margin: 0 0 40px 50px;
 	}
-	nav{
-		/*display: none;*/
-	}
 	article{
 		margin: 0;
 	}
@@ -44,9 +41,6 @@
 	h1{
 		margin: 0 0 40px 50px;
 	}
-	nav{
-		/*display: none;*/
-	}
 	article{
 		margin: 0;
 	}
@@ -81,14 +75,9 @@
 @media (min-width: 650px) and (max-width: 799.98px) {
 	ul li.logo{
 		padding: 50px 30px 30px 50px;
-
 	}
-
 	h1{
 		margin: 0 0 40px 50px;
-	}
-	nav{
-		/*display: none;*/
 	}
 	article{
 		margin: 0;
@@ -97,7 +86,7 @@
 		width: calc(1/2*100% - (1 - 1/2)*10px);
 	}
 	.wrapper_second_row > div{
-		height: 180px;
+		/*height: 100%;*/
 	}
 	.wrapper_third_row > div{
 		width: 100%;
@@ -127,7 +116,10 @@
 		width: calc(1/2*100% - (1 - 1/2)*10px);
 	}
 	.wrapper_second_row > div{
-		height: 180px;
+		/*height: 100%;*/
+	}
+	.second_row_description{
+		/*margin: 10px 0 10px 0;*/
 	}
 	.wrapper_third_row > div{
 		width: 100%;
@@ -147,9 +139,6 @@
 	}
 }
 @media screen and (min-width: 1000px) {
-	/*.list{
-		visibility: visible;
-	}*/
 	.hamburger .bar{
 		visibility: hidden;
 	}

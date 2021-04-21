@@ -116,6 +116,7 @@ nav ul{
     background-color: whitesmoke;
     box-shadow: 2px 0 3px gray ;
     z-index: 2;
+    top: 0;
 }
 nav ul li{
     width: 100%;

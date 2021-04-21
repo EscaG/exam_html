@@ -5,10 +5,6 @@ main{
     max-width: 1000px;
     margin: auto;
 }
-.wrapper_main{
-    /*display: flex;*/
-}
-
 article{
     display: flex;
     flex-direction: column;
@@ -150,12 +146,12 @@ h1{
     font-size: 14px;
     color: gray;
 }
-.second_row_secrtiption{
+.second_row_description{
     font-size: 12px;
     margin: 10px 0 0 0;
     color: gray;
 }
-.second_row_secrtiption img{
+.second_row_description img{
     height: 12px;
 }
 /************************************************/
