@@ -1,6 +1,12 @@
 @media (max-width: 499.98px) {
+	ul li.logo{
+		padding: 50px 30px 30px 50px;
+	}
+	h1{
+		margin: 0 0 40px 50px;
+	}
 	nav{
-		display: none;
+		/*display: none;*/
 	}
 	article{
 		margin: 0;
@@ -32,8 +38,14 @@
 	}
 }
 @media (min-width: 500px) and (max-width: 649.98px) {
+	ul li.logo{
+		padding: 50px 30px 30px 50px;
+	}
+	h1{
+		margin: 0 0 40px 50px;
+	}
 	nav{
-		display: none;
+		/*display: none;*/
 	}
 	article{
 		margin: 0;
@@ -67,8 +79,16 @@
 	}
 }
 @media (min-width: 650px) and (max-width: 799.98px) {
+	ul li.logo{
+		padding: 50px 30px 30px 50px;
+
+	}
+
+	h1{
+		margin: 0 0 40px 50px;
+	}
 	nav{
-		display: none;
+		/*display: none;*/
 	}
 	article{
 		margin: 0;
@@ -97,7 +117,12 @@
 	}
 }
 @media (min-width: 800px) and (max-width: 999.98px) {
-	
+	ul.list{
+		visibility: visible;
+	}
+	.hamburger .bar{
+		visibility: hidden;
+	}
 	.wrapper_first_row > div{
 		width: calc(1/2*100% - (1 - 1/2)*10px);
 	}
@@ -122,6 +147,14 @@
 	}
 }
 @media screen and (min-width: 1000px) {
-
+	/*.list{
+		visibility: visible;
+	}*/
+	.hamburger .bar{
+		visibility: hidden;
+	}
+	ul.list{
+		visibility: visible;
+	}
 
 }

@@ -8,14 +8,7 @@ main{
 .wrapper_main{
     /*display: flex;*/
 }
-nav{
-    position: fixed;
-    /*flex: 1;*/
-    width: 200px;
-    height: 100vh;
-    background-color: whitesmoke;
-    box-shadow: 2px 0 3px gray ;
-}
+
 article{
     display: flex;
     flex-direction: column;
@@ -36,7 +29,7 @@ section{
 h1{
     font-size: 22px;
     font-weight: bold;
-    width: 100%;
+    /*width: 100%;*/
     margin: 0 0 40px 0;
     color: #1a1717;
 }
@@ -150,7 +143,7 @@ h1{
 }
 .second_row_top_block p{
     font-size: 18px;
-    margin: -5px 0 0 0;
+    margin: -5px 0 5px 0;
     color: gray;
 }
 .second_row_top_block span{
