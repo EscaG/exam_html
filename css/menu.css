@@ -49,6 +49,7 @@ nav ul li a img{
 nav ul li a:hover{
     color: #fff;
     background-color: rgb(139, 0, 0);
+    box-shadow: 2px 2px 3px gray;
 }
 nav ul li a:hover .nav_image_gray{
     display: none;

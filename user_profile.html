@@ -7,31 +7,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/media.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/menu.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/media_user_profile.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/menu_hover.css">
+	<link rel="stylesheet" type="text/css" href="css/user_profile_style.css">
 
 
 
  
 </head>
 <body>
+	<main class="wrapper_user_profile">
+		
+	
 		<nav>
-			<!-- <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
-			<label for="checkbox3">
-				<div class="hamburger hamburger3">
-					<span class="bar bar1"></span>
-					<span class="bar bar2"></span>
-					<span class="bar bar3"></span>
-					<span class="bar bar4"></span>
-				</div>
-			</label> -->
-				<div class="wrapper">
-					<div class="top bar"></div>
-					<div class="middle bar"></div>
-					<div class="bottom bar"></div>
-				</div>
+			<div class="wrapper">
+				<div class="top bar"></div>
+				<div class="middle bar"></div>
+				<div class="bottom bar"></div>
+			</div>
 			<ul class="list">
 				<li class="logo">Company</li>
 				<li>
@@ -65,5 +59,58 @@
 				</li>
 			</ul>
 		</nav>
+		<article class=" wrapper_up_article">
+
+			<h1>User Profile</h1>
+			<section class="wrapper_up">
+				<div class="edit_profile">
+					<div class="red_head">
+						<h3>Edit Profile</h3>
+						<p>Complete ypur ptofile</p>
+					</div>
+					<form action="/">
+						<p>Company</p>
+						<p>Username</p>
+						<p>Email address</p>
+						<input required tabindex="1" type="text">
+						<input required tabindex="2" type="text">
+						<input required tabindex="3" type="email">
+						<p>First name</p>
+						<p>Last name</p>
+						<input required tabindex="4" type="text">
+						<input required tabindex="5" type="text">
+						<p>Address</p>
+						<input required tabindex="6" type="text" id="input_address">
+						<p>City</p>
+						<p>Country</p>
+						<p>Postal code</p>
+						<input required tabindex="7" type="text">
+						<input required tabindex="8" type="text">
+						<input required tabindex="9" type="phone">
+						<p class="about_me">About me</p>
+						<textarea  class="about_me" required tabindex="10"></textarea>
+						<div id="to_button">
+							<button type="submit">UPDATE PROFILE</button>
+						</div>
+					</form>
+				</div>
+				<div class="alec_thompson">
+
+					<img src="img/alec.png" alt="img">
+					<span>CEO/CO-FOUNDER</span>
+					<h3>Alec Thompson</h3>
+					<p>Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is..</p>
+				</div>
+			</section>
+				<section class="footer">
+					<ul>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">LICENSES</a></li>
+					</ul>
+					<p>2019 - made with love</p>
+				</section>
+		</article>
+	</main>
 </body>
 </html>
