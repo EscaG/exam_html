@@ -1,13 +1,33 @@
 body{
-	color: gray;
+    font-family: Calibri, sans-serif;
+    color: gray;
 }
-.wrapper_up_article{
-	display: flex;
-	flex-direction: column;
+main{
+    max-width: 1000px;
+    margin: auto;
 }
-h1{
+article{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+    margin-left: 200px;
+    padding: 20px 15px;
+    background-color: lightgray;
+}
 
+/***********************************/
+/***************FIRST ROW****************/
+/***********************************/
+h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 40px 0;
+    color: #1a1717;
 }
+
+
+
 .wrapper_up{
 	display: flex;
 	flex-wrap: wrap;
@@ -15,8 +35,6 @@ h1{
 }
 .wrapper_up > div{
 	background-color: #fff;
-	/*height: 200px;*/
-	/*width: calc(1/2*100% - (1 - 1/2)*10px);*/
 	justify-content: space-between;
 	height: 100%;
 	box-shadow: 1px 2px 3px gray;
@@ -84,7 +102,7 @@ textarea{
 	margin: 0 0 15px 0;
 }
 .edit_profile button{
-	padding: 5px 50px;
+	padding: 10px 50px;
 	background-color: #c32056;
 	color: #fff;
 	box-shadow: 1px 2px 3px gray;

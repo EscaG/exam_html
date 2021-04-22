@@ -11,13 +11,9 @@
     color: #1a1717;
     border-bottom: 1px solid gray;
 }
-.list{
-    /*visibility: hidden;*/
-}
 nav ul{
     transform: translateX(-200px);
     position: fixed;
-    /*flex: 1;*/
     width: 200px;
     height: 100vh;
     background-color: whitesmoke;
@@ -31,19 +27,18 @@ nav ul li{
     padding: 0 20px 0 10px ;
 }
 nav ul li a{
-    font-size: 16px;
+    font-size: 18px;
     display: inline-block;
     width: 100%;
     padding: 10px;
     color: gray;
 }
 nav ul li a img{
-    height: 16px;
-    /*width: 16px;*/
+    height: 18px;
     margin: 0 10px 0 0 ;
 }
 .notify{
-    width: 16px;
+    width: 20px;
     height: auto;
 }
 nav ul li a:hover{
@@ -57,6 +52,9 @@ nav ul li a:hover .nav_image_gray{
 nav ul li a:hover .nav_image_white{
     display: inline-block;
     color: #fff;
+}
+nav ul li a:hover img.map{
+    margin: 0 10px 0 3px;
 }
 .nav_image_white{
     display: none;
