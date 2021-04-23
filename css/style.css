@@ -58,7 +58,6 @@ h1{
 .first_row_description{
     font-size: 12px;
     margin: 10px 0 0 15px;
-    /*color: gray;*/
 }
 .first_row_description img{
     height: 12px;
@@ -136,16 +135,13 @@ h1{
 .second_row_top_block p{
     font-size: 18px;
     margin: -5px 0 5px 0;
-    /*color: gray;*/
 }
 .second_row_top_block span{
     font-size: 14px;
-    /*color: gray;*/
 }
 .second_row_description{
     font-size: 12px;
     margin: 10px 0 0 0;
-    /*color: gray;*/
 }
 .second_row_description img{
     height: 12px;
@@ -210,19 +206,18 @@ h1{
 	grid-template-rows: auto 1fr;
 	align-items: stretch;
 	justify-content: space-between;
-	/*align-content: stretch;*/
 }
 .wrapper_grid_left div{
 	padding: 10px;
 }
 .wrapper_grid_left label{
     padding: 10px;
+    cursor: pointer;
 }
 .wrapper_grid_left > :nth-child(-n+12){
 	border-bottom: 1px solid lightgray;
 }
 .wrapper_grid_left input{
-	/*margin: 10px;*/
 	margin: 5px 0 0 0;
 	cursor: pointer;
 }
@@ -233,11 +228,7 @@ h1{
 .wrapper_grid_left p{
 	font-size: 12px;
 	color: gray;
-	/*padding: 10px 0;*/
 }
-
-
-
 
 /***************************************/
 .wrapper_grid_right{
@@ -249,7 +240,6 @@ h1{
 }
 .wrapper_grid_right > p{
 	padding: 10px;
-	/*color: gray;*/
 }
 .wrapper_grid_right > p:nth-child(-n+16){
 	border-bottom: 1px solid lightgray;
@@ -267,9 +257,7 @@ h1{
 	justify-content: space-between;
 	border-top: 1px solid  #999999;
 	padding: 20px 10px 0 10px ;
-	/*color: gray;*/
 }
-
 .footer ul li{
 	display: inline-block;
 	margin: 0 15px 0 0;
@@ -277,7 +265,6 @@ h1{
 }
 .footer ul li a{
 	color: #4d4d4d;
-
 }
 .footer ul li a:hover{
     color: #fff;
