@@ -14,10 +14,11 @@ article{
     margin-left: 200px;
     padding: 20px 15px;
     background-color: lightgray;
+    position: relative;
 }
 
 section{
-    flex: 1;
+    /*flex: 1;*/
 }
 /***********************************/
 /***************FIRST ROW****************/

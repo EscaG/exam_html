@@ -103,6 +103,10 @@
 	.wrapper_second_row > div{
 		/*height: 100%;*/
 	}
+	.wrapper_third_row{
+		margin: 0 0 60px 0;
+		
+	}
 	.wrapper_third_row > div{
 		width: 100%;
 	}
@@ -118,6 +122,11 @@
 	.wrapper_grid_left img{
 		height: 18px;
 		margin: 0;
+	}
+	.footer{
+		position: absolute;
+		bottom: 20px;
+		width: calc(100% - 30px);
 	}
 }
 @media (min-width: 800px) and (max-width: 999.98px) {
@@ -142,6 +151,9 @@
 	.second_row_description{
 		/*margin: 10px 0 10px 0;*/
 	}
+	.wrapper_third_row{
+		margin: 0 0 60px 0;
+	}
 	.wrapper_third_row > div{
 		width: 100%;
 	}
@@ -158,6 +170,11 @@
 		height: 18px;
 		margin: 0;
 	}
+	.footer{
+		position: absolute;
+		bottom: 20px;
+		width: calc(100% - 30px);
+	}
 }
 @media screen and (min-width: 1000px) {
 	.wrapper{
@@ -166,6 +183,14 @@
 	ul.list{
 		transform: translateX(0);
 		visibility: visible;
+	}
+	.wrapper_third_row{
+		margin: 0 0 60px 0;
+	}
+	.footer{
+		position: absolute;
+		bottom: 20px;
+		width: 770px;
 	}
 
 }
