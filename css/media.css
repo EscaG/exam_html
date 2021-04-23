@@ -11,6 +11,20 @@
 	.wrapper_first_row > div{
 		width: 100%;
 	}
+	.first_row_block_color{
+	    position: absolute;
+	    top: -40px;
+	    left: 0;
+	    width: 70px;
+	    height: 70px;
+	    padding: 12px 0 0 0;
+	    text-align: center;
+	    box-shadow: 2px 2px 3px gray;
+	}
+	.first_row_block_color img{
+	    width: 45px;
+	}
+	/***************************************/
 	.wrapper_second_row > div{
 		height: 100%;
 		width: 100%;
@@ -62,7 +76,7 @@
 		grid-template-columns: 30px 1fr 35px 35px;
 	}
 	.wrapper_grid_left input{
-		margin: 3px 0 0 0;
+		margin: 1px 0 0 0;
 	}
 	.wrapper_grid_left p{
 		font-size: 14px;
@@ -96,7 +110,7 @@
 		grid-template-columns: 30px 1fr 35px 35px;
 	}
 	.wrapper_grid_left input{
-		margin: 3px 0 0 0;
+		margin: 1px 0 0 0;
 	}
 	.wrapper_grid_left p{
 		font-size: 16px;
@@ -135,7 +149,7 @@
 		grid-template-columns: 30px 1fr 35px 35px;
 	}
 	.wrapper_grid_left input{
-		margin: 3px 0 0 0;
+		margin: 2px 0 0 0;
 	}
 	.wrapper_grid_left p{
 		font-size: 16px;

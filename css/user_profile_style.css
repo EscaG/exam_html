@@ -96,10 +96,12 @@ h1{
 }
 .about_me{
 	width: 100%;
+	margin: 0 0 5px 0;
 }
-textarea{
+textarea.textarea{
 	border-bottom: 1px solid gray;
 	margin: 0 0 15px 0;
+	resize: none;
 }
 .edit_profile button{
 	padding: 10px 50px;
@@ -154,4 +156,7 @@ textarea{
 .footer ul li a{
 	color: #4d4d4d;
 
+}
+.footer ul li a:hover{
+	color: #fff;
 }

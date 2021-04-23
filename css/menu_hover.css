@@ -3,13 +3,11 @@
 .wrapper {
   width:30px;
   height:40px;
-  /*margin: 0 auto;*/
-  /*margin-top: 10%;*/
-  /*border:1px solid red;*/
   position: absolute;
   z-index: 5;
   top: 13px;
   left: 20px;
+  cursor: pointer;
 }
 .wrapper:hover, nav:hover{
   position: fixed;
@@ -26,7 +24,6 @@
   opacity:0.3;
 }
 nav:hover ul{
-  /*visibility: visible;*/
   transform: translateX(0);
 }
 

@@ -1,5 +1,6 @@
 body{
     font-family: Calibri, sans-serif;
+    color: gray;
 }
 main{
     max-width: 1000px;
@@ -57,7 +58,7 @@ h1{
 .first_row_description{
     font-size: 12px;
     margin: 10px 0 0 15px;
-    color: gray;
+    /*color: gray;*/
 }
 .first_row_description img{
     height: 12px;
@@ -135,16 +136,16 @@ h1{
 .second_row_top_block p{
     font-size: 18px;
     margin: -5px 0 5px 0;
-    color: gray;
+    /*color: gray;*/
 }
 .second_row_top_block span{
     font-size: 14px;
-    color: gray;
+    /*color: gray;*/
 }
 .second_row_description{
     font-size: 12px;
     margin: 10px 0 0 0;
-    color: gray;
+    /*color: gray;*/
 }
 .second_row_description img{
     height: 12px;
@@ -214,7 +215,10 @@ h1{
 .wrapper_grid_left div{
 	padding: 10px;
 }
-.wrapper_grid_left > div:nth-child(-n+12){
+.wrapper_grid_left label{
+    padding: 10px;
+}
+.wrapper_grid_left > :nth-child(-n+12){
 	border-bottom: 1px solid lightgray;
 }
 .wrapper_grid_left input{
@@ -245,7 +249,7 @@ h1{
 }
 .wrapper_grid_right > p{
 	padding: 10px;
-	color: gray;
+	/*color: gray;*/
 }
 .wrapper_grid_right > p:nth-child(-n+16){
 	border-bottom: 1px solid lightgray;
@@ -263,7 +267,7 @@ h1{
 	justify-content: space-between;
 	border-top: 1px solid  #999999;
 	padding: 20px 10px 0 10px ;
-	color: gray;
+	/*color: gray;*/
 }
 
 .footer ul li{
@@ -274,4 +278,7 @@ h1{
 .footer ul li a{
 	color: #4d4d4d;
 
+}
+.footer ul li a:hover{
+    color: #fff;
 }
