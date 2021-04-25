@@ -17,9 +17,6 @@ article{
     position: relative;
 }
 
-section{
-    /*flex: 1;*/
-}
 /***********************************/
 /***************FIRST ROW****************/
 /***********************************/
@@ -43,13 +40,9 @@ h1{
 }
 .color_block_top{
     position: relative;
-    display: flex;
     margin: 15px 15px 0 15px;
     padding: 0 0 10px 0;
     border-bottom: 1px solid lightgray;
-}
-.color_block_top div:last-child{
-    flex: 1;
 }
 .first_row_head{
     margin: 0;

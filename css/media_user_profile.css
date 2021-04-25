@@ -24,12 +24,8 @@
 	.wrapper{
 		display: none;
 	}
-	.hamburger .bar{
-		visibility: hidden;
-	}
 	ul.list{
 		transform: translateX(0);
-		/*visibility: visible;*/
 	}
 	.wrapper_up {
 		flex-direction: column-reverse;
@@ -49,7 +45,6 @@
 	}
 	ul.list{
 		transform: translateX(0);
-		visibility: visible;
 	}
 	.footer{
 		position: absolute;
